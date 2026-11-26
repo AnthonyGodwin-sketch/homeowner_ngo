@@ -1,0 +1,19 @@
+The website is for an organization that provides home for the homeless people n Nigeria: HomeOwner Foundation
+
+
+Sections
+    
+* Navbar — Logo (house+heart SVG icon) + "HomeOwner Foundation" text + navigation links (Home, **About**, Projects, Blog, Contact, **Donate**). Uses Flowbite Navbar component with responsive hamburger toggle.            
+
+* Hero — Full-width background image (hero.png), with dark overlay. Left side: H1 "Building Homes, Restoring Hope" + paragraph. Right side left clear for the family in the image. CTA button "Donate Now".    
+
+* MD Welcome — Two-column layout: left = circular MD portrait (md.png), right = welcome message heading + mission text. On mobile stacks vertically.     
+
+* Latest Projects — 6 projects in alternating image-left/text-right and text-left/image-right layout using grid-cols-2. On mobile, stacks to single column.     
+
+* Blog Posts — 3 cards per row on md screens+, 1 per row on mobile. Uses Flowbite Card component. Each card: image, date badge, title, excerpt, "Read More" link.     
+
+* Carousel — Flowbite Carousel component with slide1-5.png images and an H2 heading "Our Impact Gallery". Navigation arrows + dot indicators.    
+
+Footer — 3-column layout: About column, Quick Links, Contact Info. Copyright bar at bottom. On mobile stacks vertically.    
+
